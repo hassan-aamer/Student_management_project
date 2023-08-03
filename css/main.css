@@ -1,0 +1,80 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+#mother{
+    width: 100%;
+    font-size: 20px;
+}
+main{
+    float: left;
+    border: 1px solid gray;
+    padding: 5px;
+    box-shadow: 1px 1px 20px black;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+}
+input{
+    padding: 4px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 10px;
+    width: 90%;
+}
+aside{
+    text-align: center;
+    width: 400px;
+    float: right;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: silver;
+    color: white;
+    height: 680px;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+#tbl{
+    width: 999px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#tbl:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#tbl th{
+    background-color: silver;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+aside button{
+    width: 150px;
+    padding: 8px;
+    margin-top: 7px;
+    font-size: 17px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 15px black;
+    margin: auto;
+    background-color: whitesmoke;
+}
+aside button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+label{
+    color: black;
+}
